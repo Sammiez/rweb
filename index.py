@@ -5,7 +5,7 @@ import random
 
 print "Content-Type: text/html; charset=utf-8\n"
 
-user=[ 'user1', 'user2', 'user3', 'user4', 'user5', 'user6' ]
+value=[ 'user1', 'user2', 'user3', 'user4', 'user5', 'user6' ]
 
 print """
         <HTML><HEAD><TITLE>Random</TITLE></HEAD>
@@ -21,5 +21,5 @@ print """
         </BODY>
         </HTML>
 
-""" % ( user[ random.randint( 0, (len(user)-1) ) ] )
+""" % ( value[ random.randint( 0, (len(value)-1) ) ] )
 
